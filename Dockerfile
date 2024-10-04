@@ -2,7 +2,7 @@ FROM mwalbeck/supercronic:0.2.32@sha256:efd43e21077db1d361bd6f25467e0f835f4b635f
 
 FROM mwalbeck/composer:1.10.27-php7.4@sha256:4aafb89e7f718e0124f29d416b9e8839788f85392ab7b2ccfbfc4b313ec0f12b AS composer
 
-ENV FLOX_VERSION master
+ENV FLOX_VERSION main
 
 RUN set -ex; \
     \
