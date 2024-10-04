@@ -6,7 +6,7 @@ ENV FLOX_VERSION master
 
 RUN set -ex; \
     \
-    git clone --branch $FLOX_VERSION https://github.com/devfake/flox.git /tmp/flox; \
+    git clone --branch $FLOX_VERSION https://github.com/Simounet/flox.git /tmp/flox; \
     cd /tmp/flox/backend; \
     composer --no-cache install;
 
